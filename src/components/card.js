@@ -5,7 +5,7 @@ const Card = ({ image, title, des }) => {
 
         <>
 
-            <div className='w-[90%] md:w-[50%] lg:w-[25%]'>
+            <div className='w-[90%] md:w-[40%] lg:w-[25%]'>
                 <Image unoptimized alt={title} height={400} width={400} className="mb-7 rounded-xl" src={image} />
                 <div>
                     <h3 className="text-[#0A2025] dark:text-white text-2xl font-bold font-['Roboto']">{title}</h3>
