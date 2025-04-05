@@ -7,25 +7,8 @@ import Footer from '@/components/Footer';
 function Page() {
   return (
     <>
-      <div className="bg-black py-32 h-screen">
-        <div className="flex flex-col justify-center items-center">
-          <div className="flex items-center justify-center rounded-full border border-zinc-600 px-2 py-[6px]">
-            <div className="w-5 h-5 bg-zinc-900 rounded-full text-zinc-400 mr-2 p-[4px]">
-            </div>
-            <div className="text-zinc-400 text-sm">
-              Supercharge Your YouTube Growth 
-            </div>
-          </div>
-          <div className="relative text-center mt-5 mb-5 text-3xl md:text-5xl font-medium">
-            <h1 className="relative text-white leading-[45px] md:leading-[65px] z-10 isolate">
-              Get Viral on YouTube with Our <br />Proven Course
-            </h1>
-            <div className="absolute left-1/2 bottom-12 -translate-x-1/2 h-12 w-96 bg-blue-800 blur-[50px] z-[1] opacity-60"></div>
-          </div>
-          <div className="text-center mb-20">
-            <p className=' w-[70%] md:w-[60%]  mx-auto '>Are you struggling to get more views, subscribers, and engagement on your YouTube Shorts? Our exclusive Viral Shorts Bundle is designed to help you skyrocket your channel in no time!</p>
-          </div>
-        </div>
+      <div className="bg-black  h-screen">
+       
         <section className=" w-full bg-white dark:bg-[#0A2025] py-9 px-8 ">
           <div className="mx-auto max-w-[1160px] ">
             <header className="h-12 mb-8 justify-between items-center flex">
