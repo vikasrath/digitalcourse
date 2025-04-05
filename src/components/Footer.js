@@ -34,11 +34,6 @@ const Footer = () => {
       {/* Bottom Section */}
       <div className="text-center text-gray-500 text-sm mt-8 space-y-2">
         <p>© {new Date().getFullYear()} Viral Boost. All Rights Reserved.</p>
-        <p>Contact: 9788676100</p>
-        <p>Shipping Policy: Orders are processed within 2-3 business days.</p>
-        <p>Refund Policy: Refunds are available within 7 days of purchase.</p>
-        <p>Privacy Policy: We value your privacy. Your data will not be shared with third parties without consent.</p>
-        <p>Terms & Conditions: By using our services, you agree to our terms, including timely payments and fair usage.</p>
       </div>
 
     </footer>
