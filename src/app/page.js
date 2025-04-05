@@ -42,36 +42,8 @@ function Page() {
                 </svg></div>
             </header>
             <main className="flex items-center flex-col md:flex-row  flex-wrap justify-center  gap-10">
-              <Card
-                image="/CourseBundlle/img1.jpg"
-                title="AI Reels"
-                des="Boost your YouTube reach with AI-powered reels! Get high-engagement short videos designed to go viral effortlessly."
-              />
-              <Card
-                image="/CourseBundlle/img2.jpg"
-                title="Bageshwar Baba"
-                des="Trending Bageshwar Baba clips that guarantee massive views! Use these shorts to attract an engaged audience fast."
-              />
-              <Card
-                image="/CourseBundlle/img3.jpg"
-                title="Hindi Podcast"
-                des="Dominate the podcast niche with viral Hindi shorts! Grab attention, gain subscribers, and grow your influence quickly."
-              />
-              <Card
-                image="/CourseBundlle/img4.jpg"
-                title="HD Movies"
-                des="Make your channel explode with high-quality, viral movie clips! Perfect for gaining millions of views effortlessly."
-              />
-              <Card
-                image="/CourseBundlle/img5.jpg"
-                title="Viral Movies"
-                des="Get trending movie shorts that attract crazy engagement! These clips will keep your audience hooked and coming back for more."
-              />
-              <Card
-                image="/CourseBundlle/img6.jpg"
-                title="Space Reels"
-                des="Tap into the viral space niche! Get mesmerizing space clips that captivate viewers and make your channel skyrocket."
-              />
+              <Card/>
+              
             </main>
           </div>
         </section>
