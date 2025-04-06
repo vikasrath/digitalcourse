@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
@@ -16,10 +17,11 @@ const Footer = () => {
 
         {/* Center - Quick Links */}
         <div className="flex gap-6 text-sm text-gray-300">
-          <a href="#" className="hover:text-green-400 transition">Home</a>
-          <a href="#" className="hover:text-green-400 transition">Bundles</a>
-          <a href="#" className="hover:text-green-400 transition">About</a>
-          <a href="#" className="hover:text-green-400 transition">Contact</a>
+          <Link href="/privacypolicy" className="hover:text-green-400 transition">Privacy Policy</Link>
+          <Link href="/refund" className="hover:text-green-400 transition">Refund Policy</Link>
+          <Link href="/shipingpolicy" className="hover:text-green-400 transition">Shiping </Link>
+          <Link href="/termcondition" className="hover:text-green-400 transition">Term & Condition</Link>
+          <Link href="/contactus" className="hover:text-green-400 transition">Contact Us</Link>
         </div>
 
         {/* Right - Social Icons */}
