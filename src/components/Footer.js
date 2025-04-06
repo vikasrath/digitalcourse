@@ -16,7 +16,7 @@ const Footer = () => {
         </div>
 
         {/* Center - Quick Links */}
-        <div className="flex gap-6 text-sm text-gray-300">
+        <div className="flex flex-col  md:flex-row  gap-6 text-sm text-gray-300">
           <Link href="/privacypolicy" className="hover:text-green-400 transition">Privacy Policy</Link>
           <Link href="/refund" className="hover:text-green-400 transition">Refund Policy</Link>
           <Link href="/shipingpolicy" className="hover:text-green-400 transition">Shiping </Link>
@@ -25,7 +25,7 @@ const Footer = () => {
         </div>
 
         {/* Right - Social Icons */}
-        <div className="flex gap-4">
+        <div className="flex gap-4 mt-4">
           <a href="#" className="text-gray-400 hover:text-green-400 transition text-xl"><FaFacebookF /></a>
           <a href="#" className="text-gray-400 hover:text-green-400 transition text-xl"><FaTwitter /></a>
           <a href="#" className="text-gray-400 hover:text-green-400 transition text-xl"><FaInstagram /></a>
