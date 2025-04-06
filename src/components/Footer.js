@@ -3,7 +3,7 @@ import { FaFacebookF, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
 
 const Footer = () => {
   return (
-    <footer className="bg-black text-white py-10 px-6">
+    <footer className="bg-black text-white py-10 px-6 ">
       <div className="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
 
         {/* Left Section */}
@@ -32,7 +32,7 @@ const Footer = () => {
       </div>
 
       {/* Bottom Section */}
-      <div className="text-center text-gray-500 text-sm mt-8 space-y-2">
+      <div className="text-center text-gray-500 text-sm mt-8 space-y-2  mb-24">
         <p>© {new Date().getFullYear()} Viral Boost. All Rights Reserved.</p>
       </div>
 

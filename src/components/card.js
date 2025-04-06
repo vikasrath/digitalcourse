@@ -61,7 +61,21 @@ export default function Card() {
 
     return (
         <div className=" md:p-12">
-            <section className=" w-full bg-[#0A2025] lg:py-9 lg:px-8">
+            <section className=" relative w-full bg-[#0A2025] lg:py-9 lg:px-8">
+
+                <div className="lg:hidden fixed bottom-0 left-0 z-40 w-full px-4 pb-4 bg-white shadow-[0_-2px_10px_rgba(0,0,0,0.1)] rounded-t-2xl">
+                    <div className="flex justify-between px-4 items-center text-base font-semibold border-t pt-4 text-gray-800">
+                        <span>Price</span>
+                        <span>₹299</span>
+                    </div>
+                    <button
+                        onClick={handlePayBtn}
+                        className="w-full mt-4 py-3 bg-gradient-to-r from-green-400 to-green-500 text-white text-lg font-semibold rounded-xl shadow-md hover:from-green-500 hover:to-green-600 transition-all duration-300"
+                    >
+                        Pay ₹299
+                    </button>
+                </div>
+
                 <div className="mx-auto max-w-[1160px] ">
                     <header className="h-12 mb-8 justify-between items-center flex">
                         <h2 className=" text-white text-2xl font-bold font-['Roboto']">2000+ Cartoon bundle</h2>
@@ -107,8 +121,8 @@ export default function Card() {
                                     <span>₹299</span>
                                 </div>
 
-                                <button onClick={handlePayBtn} className="  w-full mt-4 py-3 bg-gradient-to-r from-green-400 to-green-500 text-white text-lg font-semibold rounded-xl shadow-md hover:shadow-lg transition-all duration-300 hover:from-green-500 hover:to-green-600">
-                                    Pay ₹2999
+                                <button onClick={handlePayBtn} className="  hidden lg:block lg w-full mt-4 py-3 bg-gradient-to-r from-green-400 to-green-500 text-white text-lg font-semibold rounded-xl shadow-md hover:shadow-lg transition-all duration-300 hover:from-green-500 hover:to-green-600">
+                                    Pay ₹299
                                 </button>
 
                             </section>
@@ -122,7 +136,7 @@ export default function Card() {
                             <p className="text-lg font-medium">You agree to share information entered on this page with Value Village (owner of this page) and Cosmofeed, adhering to applicable laws.</p>
                             <cite className="block text-right mt-4 text-gray-600">Sahil</cite>
                         </blockquote>
-                        <div className="text-sm font-normal font-['Roboto'] text-white border p-2 rounded-xl">
+                        <div className="text-sm font-normal font-['Roboto'] text-white border p-4 rounded-xl">
                             <strong>Diclaimer</strong>
                             <p>Cosmofeed Technologies Pvt. Ltd. shall not be held liable for any content or materials published, sold, or distributed by content creators on our associated apps or websites. Learn more.</p>
                         </div>
