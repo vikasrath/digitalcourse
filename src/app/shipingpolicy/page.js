@@ -1,47 +1,35 @@
-import BackButton from '@/components/BackButton'
-import React from 'react'
+import BackButton from '@/components/BackButton';
+import React from 'react';
 
-function page() {
-    return (
-        <section className="px-6 py-12 max-w-4xl mx-auto text-white">
-            <BackButton/>
-            <h1 className="text-3xl font-bold mb-6 text-center">Shipping Policy</h1>
+const ShippingPolicy = () => {
+  return (
+    <section className="max-w-3xl mx-auto px-4 py-8 text-gray-800">
+        <BackButton/>
+      <h1 className="text-2xl font-bold mb-6 text-center text-white">Shipping Policy</h1>
 
-            <p className="mb-4">
-                Thank you for purchasing from <strong>https://www.sahilstore.shop/</strong>. Please read our shipping policy to understand how we deliver our digital products.
-            </p>
+      <div className="space-y-4 text-sm leading-relaxed bg-white p-6 rounded-xl shadow">
+        <p><strong>Effective Date:</strong> April 7, 2025</p>
 
-            <h2 className="text-2xl font-semibold mt-8 mb-2">1. Digital Delivery</h2>
-            <p className="mb-4">
-                All our products, including the copyright-free cartoon video bundles, are delivered digitally via a secure download link sent to your email after successful payment.
-            </p>
+        <p>
+          This is a digital product. No physical item will be shipped to your address.
+        </p>
 
-            <h2 className="text-2xl font-semibold mt-8 mb-2">2. Delivery Time</h2>
-            <p className="mb-4">
-                You will receive the download link within minutes of your purchase. In rare cases, delivery may take up to 1 hour. Please check your inbox and spam/junk folder.
-            </p>
+        <p>
+          After successful payment through Razorpay, you will receive a downloadable PDF file 
+          containing the bundle of copyright-free cartoon video links.
+        </p>
 
-            <h2 className="text-2xl font-semibold mt-8 mb-2">3. No Physical Shipment</h2>
-            <p className="mb-4">
-                As we deal only in digital goods, there is <strong>no physical shipping involved</strong>. You will not receive any physical item through postal or courier services.
-            </p>
+        <p>
+          In case of any delivery issues, feel free to contact us and we will assist you promptly.
+        </p>
 
-            <h2 className="text-2xl font-semibold mt-8 mb-2">4. Issues with Download</h2>
-            <p className="mb-4">
-                If you face any issues accessing or downloading the files, please contact us immediately. We are here to assist you:
-            </p>
-            <p className="mb-2"><strong>Email:</strong> https://www.sahilstore.shop/</p>
-            <p><strong>Response Time:</strong> Within 24–48 business hours</p>
+        <p><strong>Contact Us:</strong><br />
+          📞 +91 97886-76100<br />
+          📧 sahilkumar550sk@gmail.com
+        </p>
+      </div>
+    </section>
+  );
+};
 
-            <h2 className="text-2xl font-semibold mt-8 mb-2">5. File Format</h2>
-            <p className="mb-4">
-                All video files are provided in commonly supported formats such as MP4. Ensure your device supports the format before purchasing.
-            </p>
-
-            <p className="mt-6 text-sm text-gray-600">Last updated: April 6, 2025</p>
-        </section>
-
-    )
-}
-
-export default page
+export default ShippingPolicy;

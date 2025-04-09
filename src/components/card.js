@@ -130,17 +130,15 @@ export default function Card() {
 
 
                         </div>
+                      <ProductDescription/>
                         <blockquote className="border-l-4 border-gray-500 italic pl-4  max-w-md">
                             <h1>
-                                <strong>Terms and conditions</strong>
+                                <strong>Delivery:</strong>
                             </h1>
-                            <p className="text-lg font-medium">You agree to share information entered on this page with Value Village (owner of this page) and Cosmofeed, adhering to applicable laws.</p>
+                            <p className="text-lg font-medium">After successful Razorpay payment, you'll instantly receive the PDF download. If not, we'll manually send it to you within a few minutes.</p>
                             <cite className="block text-right mt-4 text-gray-600">Sahil</cite>
                         </blockquote>
-                        <div className="text-sm font-normal font-['Roboto'] text-white border p-4 rounded-xl">
-                            <strong>Diclaimer</strong>
-                            <p>Cosmofeed Technologies Pvt. Ltd. shall not be held liable for any content or materials published, sold, or distributed by content creators on our associated apps or websites. Learn more.</p>
-                        </div>
+                       
                        <section className=" w-full border-b-2 border-white text-white">
                                
                              <h1 className="text-xl font-bold mb-6 ">Contact Us</h1>
@@ -200,5 +198,46 @@ export default function Card() {
     );
 }
 
+
+
+
+const ProductDescription = () => {
+  return (
+    <section className="max-w-4xl mx-auto px-6 py-12 text-white">
+      <div className="bg-gray-900 p-8 rounded-xl shadow-lg space-y-6">
+        <h2 className="text-3xl font-bold text-center text-green-400">
+          Boost Your YouTube Channel with Ready-to-Use Cartoon Videos!
+        </h2>
+
+        <p className="text-lg">
+          This digital product includes a downloadable <strong>PDF file</strong> that gives you instant access to a bundle of <strong>copyright-free cartoon videos</strong> hosted on Google Drive.
+        </p>
+
+        <div className="bg-gray-800 p-6 rounded-lg space-y-3">
+          <h3 className="text-xl font-semibold text-green-300">What You’ll Get:</h3>
+          <ul className="list-disc pl-6 space-y-1 text-gray-300">
+            <li>PDF file with Google Drive links</li>
+            <li>High-quality copyright-free cartoon videos</li>
+            <li>100% safe to use and monetize on YouTube</li>
+            <li>One-time payment, lifetime access</li>
+          </ul>
+        </div>
+
+        <div className="bg-gray-800 p-6 rounded-lg space-y-3">
+          <h3 className="text-xl font-semibold text-green-300">Why It’s Perfect for You:</h3>
+          <ul className="list-disc pl-6 space-y-1 text-gray-300">
+            <li>Save time – no need to make your own videos</li>
+            <li>Start uploading and monetizing immediately</li>
+            <li>Ideal for kids, animation, or educational channels</li>
+          </ul>
+        </div>
+
+        <div className="text-center text-sm text-gray-400">
+          <p>📞 97886-76100 | 📧 sahilkumar550sk@gmail.com</p>
+        </div>
+      </div>
+    </section>
+  );
+};
 
 
